@@ -7,41 +7,201 @@
       "id": "amazon_br_electronics",
       "active": true,
       "priority": 10,
-      "countries": ["BR"],
-      "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
-      "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo"
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "app_version_min": "1.0.0",
+        "user_segments": ["all"],
+        "countries": ["BR"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
+      },
+      "content": {
+        "title": "🎁 Presentes na Amazon",
+        "subtitle": "Entrega rápida e segura",
+        "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
+        "background_color": "#FF9900",
+        "text_color": "#FFFFFF",
+        "button_text": "Ver na Amazon",
+        "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo",
+        "store": "amazon"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 30,
+        "user_activity_level": "any",
+        "special_occasion": null
+      },
+      "commission_info": {
+        "category": "eletrônicos",
+        "expected_commission": "4%",
+        "min_value": "R$ 50",
+        "avg_ticket": "R$ 200",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": false,
+        "high_conversion": true
+      }
     },
     
     {
       "id": "mercadolivre_br_presentes",
       "active": true,
       "priority": 9,
-      "countries": ["BR"],
-      "image_url": "https://example.com/mercadolivre-banner.jpg",
-      "affiliate_link": "https://mercadolivre.com.br/presentes?DEAL_ID=seucodigo"
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "app_version_min": "1.0.0",
+        "user_segments": ["all"],
+        "countries": ["BR"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
+      },
+      "content": {
+        "title": "🛍️ Ofertas no Mercado Livre",
+        "subtitle": "Milhões de produtos com desconto",
+        "image_url": "",
+        "background_color": "#FFE600",
+        "text_color": "#3483FA",
+        "button_text": "Ver Ofertas",
+        "affiliate_link": "https://mercadolivre.com.br/presentes?DEAL_ID=seucodigo",
+        "store": "mercadolivre"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 15,
+        "user_activity_level": "any",
+        "special_occasion": null
+      },
+      "commission_info": {
+        "category": "presentes",
+        "expected_commission": "8%",
+        "min_value": "R$ 30",
+        "avg_ticket": "R$ 150",
+        "high_ticket": false,
+        "seasonal_bonus": true,
+        "urgency_bonus": false,
+        "high_conversion": true
+      }
     },
 
     {
       "id": "amazon_us_gifts",
       "active": true,
       "priority": 10,
-      "countries": ["US", "CA"],
-      "image_url": "https://example.com/amazon-us-banner.jpg",
-      "affiliate_link": "https://amazon.com/presentes?tag=yourcode"
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "app_version_min": "1.0.0",
+        "user_segments": ["all"],
+        "countries": ["US", "CA"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
+      },
+      "content": {
+        "title": "🎁 Amazon Gift Ideas",
+        "subtitle": "Fast & reliable delivery",
+        "image_url": "",
+        "background_color": "#FF9900",
+        "text_color": "#FFFFFF",
+        "button_text": "Shop Now",
+        "affiliate_link": "https://amazon.com/presentes?tag=yourcode",
+        "store": "amazon"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 30,
+        "user_activity_level": "any",
+        "special_occasion": null
+      },
+      "commission_info": {
+        "category": "gifts",
+        "expected_commission": "4%",
+        "min_value": "$25",
+        "avg_ticket": "$100",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": false,
+        "high_conversion": true
+      }
     },
 
     {
       "id": "shopee_sg_electronics",
       "active": true,
       "priority": 8,
-      "countries": ["SG", "MY", "TH", "PH", "VN"],
-      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
-      "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode"
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "app_version_min": "1.0.0",
+        "user_segments": ["all"],
+        "countries": ["SG", "MY", "TH", "PH", "VN"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
+      },
+      "content": {
+        "title": "🛒 Shopee Deals",
+        "subtitle": "Best prices guaranteed",
+        "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
+        "background_color": "#32363B",
+        "text_color": "#EEEEEE",
+        "button_text": "Shop Now",
+        "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode",
+        "store": "shopee"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 20,
+        "user_activity_level": "any",
+        "special_occasion": null
+      },
+      "commission_info": {
+        "category": "electronics",
+        "expected_commission": "6%",
+        "min_value": "S$20",
+        "avg_ticket": "S$80",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": true,
+        "high_conversion": true
+      }
     }
   ],
 
   "fallback_banner": {
-    "image_url": "https://example.com/default-banner.jpg",
-    "affiliate_link": "https://example.com/ofertas"
+    "content": {
+      "title": "🎁 Encontre o presente perfeito",
+      "subtitle": "Ofertas especiais para você",
+      "image_url": "",
+      "background_color": "#6C63FF",
+      "text_color": "#FFFFFF",
+      "button_text": "Ver Ofertas",
+      "affiliate_link": "https://example.com/ofertas",
+      "store": "generic"
+    },
+    "commission_info": {
+      "category": "geral",
+      "expected_commission": "5%"
+    }
+  },
+
+  "ab_testing": {
+    "enabled": true,
+    "tests": [
+      {
+        "test_id": "title_urgency_test",
+        "active": true,
+        "variants": [
+          {
+            "title_prefix": "🔥",
+            "weight": 30
+          },
+          {
+            "title_prefix": "⏰",
+            "weight": 30
+          },
+          {
+            "title_prefix": "💰",
+            "weight": 40
+          }
+        ]
+      }
+    ]
   }
 }
