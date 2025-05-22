@@ -141,7 +141,7 @@
         "subtitle": "Best prices guaranteed",
         "image_url": "https://github.com/brunomecatronica/snuggle-banner-config/blob/main/shopee-banner.jpg",
         "background_color": "#EE4D2D",
-        "text_color": "#FFFFFF",
+        "text_color": "#EEEEEE",
         "button_text": "Shop Now",
         "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode",
         "store": "shopee"
