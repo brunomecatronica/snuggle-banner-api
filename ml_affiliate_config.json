@@ -1,0 +1,120 @@
+### 2.2 Criar Arquivo de Configuração
+**Arquivo: `ml_affiliate_config.json`**
+
+```json
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-21T10:00:00Z",
+  "affiliate_config": {
+    "program": "mercado_livre_afiliados",
+    "affiliate_id": "SEU_ID_REAL_ML",
+    "base_tracking_params": {
+      "utm_source": "snuggle_app",
+      "utm_medium": "banner",
+      "affiliate_ref": "snuggle"
+    }
+  },
+  "banners": [
+    {
+      "id": "ml_presentes_aniversario",
+      "active": true,
+      "priority": 10,
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "countries": ["BR"]
+      },
+      "content": {
+        "title": "🎁 Presente Perfeito Encontrado!",
+        "subtitle": "Milhares de opções + Cashback garantido",
+        "background_color": "#FF5722",
+        "text_color": "#FFFFFF",
+        "button_text": "Ver Presentes",
+        "affiliate_link": "COLE_SEU_LINK_DE_AFILIADO_PRESENTES_AQUI"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 30
+      },
+      "commission_info": {
+        "category": "presentes",
+        "expected_commission": "9%"
+      }
+    },
+    {
+      "id": "ml_urgente_3dias",
+      "active": true,
+      "priority": 50,
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "content": {
+        "title": "⏰ Aniversário em 3 dias!",
+        "subtitle": "Entrega garantida se comprar hoje",
+        "background_color": "#E91E63",
+        "text_color": "#FFFFFF",
+        "affiliate_link": "COLE_SEU_LINK_DE_AFILIADO_PRESENTES_AQUI"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 3
+      },
+      "commission_info": {
+        "category": "presentes",
+        "expected_commission": "9%",
+        "urgency_bonus": true
+      }
+    }
+  ],
+  "fallback_banner": {
+    "content": {
+      "title": "🛒 Mercado Livre",
+      "subtitle": "Milhões de produtos com cashback",
+      "background_color": "#FFE082",
+      "text_color": "#000000",
+      "affiliate_link": "COLE_SEU_LINK_GERAL_ML_AQUI"
+    },
+    "commission_info": {
+      "category": "geral",
+      "expected_commission": "9%"
+    }
+  }
+}
+```
+
+## 📋 Passo 3: Configurar o App
+
+### 3.1 Atualizar GitHubBannerService
+```dart
+// No arquivo ml_affiliate_github_service.dart:
+final String githubUser = 'SEU_USUARIO_GITHUB';        // ex: 'brunomecatronica' 
+final String githubRepo = 'snuggle-banner-config';     // nome do repositório
+final String configFileName = 'ml_affiliate_config.json';
+final String branch = 'main'; // ou 'master'
+```
+
+### 3.2 Implementar no App
+**No arquivo `aniversariantes_screen.dart`:**
+
+```dart
+// Substitua o DynamicBanner atual
+body: SafeArea(
+  child: Column(
+    children: [
+      // Banner ML Afiliados controlado pelo GitHub
+      MLAffiliateGitHubBanner(
+        userId: widget.userId,
+        height: 120, // Altura maior para mostrar info de comissão
+        onClose: () {
+          debugPrint('Banner ML Afiliados fechado');
+        },
+        showCloseButton: true,
+      ),
+      
+      // Resto do conteúdo existente
+      Expanded(
+        child: NotificationListener(
+          // ... seu código existente
+        ),
+      ),
+    ],
+  ),
+),
+```
