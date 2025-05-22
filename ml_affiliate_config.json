@@ -31,7 +31,7 @@
         "background_color": "#FF5722",
         "text_color": "#FFFFFF",
         "button_text": "Ver Presentes",
-        "affiliate_link": "https://mercadolivre.com.br/c/presentes#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+        "affiliate_link": "https://mercadolivre.com/sec/1v2dCqC"
       },
       "targeting": {
         "upcoming_birthdays_days": 30,
@@ -60,7 +60,7 @@
         "background_color": "#E91E63",
         "text_color": "#FFFFFF",
         "button_text": "Comprar Agora",
-        "affiliate_link": "https://mercadolivre.com.br/c/presentes?shipping=fulfillment#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+        "affiliate_link": "https://mercadolivre.com/sec/1v2dCqC"
       },
       "targeting": {
         "upcoming_birthdays_days": 3,
@@ -89,7 +89,7 @@
         "background_color": "#2196F3",
         "text_color": "#FFFFFF",
         "button_text": "Ver Ofertas",
-        "affiliate_link": "https://mercadolivre.com.br/c/eletronicos-audio-video#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+        "affiliate_link": "https://mercadolivre.com/sec/1UdHgLC"
       },
       "targeting": {
         "upcoming_birthdays_days": 15,
@@ -118,7 +118,7 @@
         "background_color": "#E91E63",
         "text_color": "#FFFFFF",
         "button_text": "Presentes Mamãe",
-        "affiliate_link": "https://mercadolivre.com.br/c/beleza-cuidado-pessoal#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+        "affiliate_link": "https://mercadolivre.com/sec/2GAAJem"
       },
       "targeting": {
         "upcoming_birthdays_days": 60,
@@ -147,7 +147,7 @@
         "background_color": "#000000",
         "text_color": "#FFFF00",
         "button_text": "Ver Ofertas BF",
-        "affiliate_link": "https://mercadolivre.com.br/ofertas?tipo=black-friday#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+        "affiliate_link": "https://mercadolivre.com/sec/2J4ZsLc"
       },
       "targeting": {
         "upcoming_birthdays_days": 0,
@@ -169,7 +169,7 @@
       "background_color": "#FFE082",
       "text_color": "#000000",
       "button_text": "Explorar",
-      "affiliate_link": "https://mercadolivre.com.br/#ORIGIN=SEU_LINK_GERAL_ML_AQUI"
+      "affiliate_link": "https://mercadolivre.com/sec/1CiVYws"
     },
     "commission_info": {
       "category": "geral",
