@@ -18,22 +18,29 @@
       "start_date": "2025-01-01T00:00:00Z",
       "end_date": "2025-12-31T23:59:59Z",
       "conditions": {
-        "countries": ["BR"]
+        "app_version_min": "1.0.0",
+        "user_segments": ["all"],
+        "countries": ["BR"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
       },
       "content": {
         "title": "🎁 Presente Perfeito Encontrado!",
         "subtitle": "Milhares de opções + Cashback garantido",
+        "image_url": "",
         "background_color": "#FF5722",
         "text_color": "#FFFFFF",
         "button_text": "Ver Presentes",
-        "affiliate_link": "COLE_SEU_LINK_DE_AFILIADO_PRESENTES_AQUI"
+        "affiliate_link": "https://mercadolivre.com.br/c/presentes#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
       },
       "targeting": {
-        "upcoming_birthdays_days": 30
+        "upcoming_birthdays_days": 30,
+        "user_activity_level": "any"
       },
       "commission_info": {
         "category": "presentes",
-        "expected_commission": "9%"
+        "expected_commission": "9%",
+        "min_value": "R$ 25"
       }
     },
     {
@@ -42,20 +49,115 @@
       "priority": 50,
       "start_date": "2025-01-01T00:00:00Z",
       "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "user_segments": ["all"],
+        "countries": ["BR"]
+      },
       "content": {
         "title": "⏰ Aniversário em 3 dias!",
         "subtitle": "Entrega garantida se comprar hoje",
+        "image_url": "",
         "background_color": "#E91E63",
         "text_color": "#FFFFFF",
-        "affiliate_link": "COLE_SEU_LINK_DE_AFILIADO_PRESENTES_AQUI"
+        "button_text": "Comprar Agora",
+        "affiliate_link": "https://mercadolivre.com.br/c/presentes?shipping=fulfillment#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
       },
       "targeting": {
-        "upcoming_birthdays_days": 3
+        "upcoming_birthdays_days": 3,
+        "user_activity_level": "any"
       },
       "commission_info": {
         "category": "presentes",
         "expected_commission": "9%",
         "urgency_bonus": true
+      }
+    },
+    {
+      "id": "ml_eletronicos_oferta",
+      "active": true,
+      "priority": 20,
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "user_segments": ["tech_lovers", "all"],
+        "countries": ["BR"]
+      },
+      "content": {
+        "title": "📱 Eletrônicos em Oferta",
+        "subtitle": "Celulares, fones e mais - Até 9,5% cashback",
+        "image_url": "",
+        "background_color": "#2196F3",
+        "text_color": "#FFFFFF",
+        "button_text": "Ver Ofertas",
+        "affiliate_link": "https://mercadolivre.com.br/c/eletronicos-audio-video#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 15,
+        "user_activity_level": "any"
+      },
+      "commission_info": {
+        "category": "eletronicos",
+        "expected_commission": "9.5%",
+        "high_ticket": true
+      }
+    },
+    {
+      "id": "ml_beleza_dia_maes",
+      "active": false,
+      "priority": 40,
+      "start_date": "2025-04-01T00:00:00Z",
+      "end_date": "2025-05-15T23:59:59Z",
+      "conditions": {
+        "countries": ["BR"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7]
+      },
+      "content": {
+        "title": "💄 Beleza para Mamãe",
+        "subtitle": "Até 16% de comissão em produtos de beleza",
+        "image_url": "",
+        "background_color": "#E91E63",
+        "text_color": "#FFFFFF",
+        "button_text": "Presentes Mamãe",
+        "affiliate_link": "https://mercadolivre.com.br/c/beleza-cuidado-pessoal#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 60,
+        "special_occasion": "mothers_day"
+      },
+      "commission_info": {
+        "category": "beleza",
+        "expected_commission": "16%",
+        "seasonal_bonus": true
+      }
+    },
+    {
+      "id": "ml_black_friday_2025",
+      "active": false,
+      "priority": 100,
+      "start_date": "2025-11-20T00:00:00Z",
+      "end_date": "2025-11-30T23:59:59Z",
+      "conditions": {
+        "user_segments": ["all"],
+        "countries": ["BR"]
+      },
+      "content": {
+        "title": "🔥 BLACK FRIDAY ML",
+        "subtitle": "Até 70% OFF + Máxima Comissão",
+        "image_url": "",
+        "background_color": "#000000",
+        "text_color": "#FFFF00",
+        "button_text": "Ver Ofertas BF",
+        "affiliate_link": "https://mercadolivre.com.br/ofertas?tipo=black-friday#ORIGIN=SEU_LINK_DE_AFILIADO_AQUI"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 0,
+        "special_occasion": "black_friday"
+      },
+      "commission_info": {
+        "category": "ofertas_especiais",
+        "expected_commission": "até 16%",
+        "high_conversion": true,
+        "event": "black_friday_2025"
       }
     }
   ],
@@ -63,15 +165,48 @@
     "content": {
       "title": "🛒 Mercado Livre",
       "subtitle": "Milhões de produtos com cashback",
+      "image_url": "",
       "background_color": "#FFE082",
       "text_color": "#000000",
-      "affiliate_link": "COLE_SEU_LINK_GERAL_ML_AQUI"
+      "button_text": "Explorar",
+      "affiliate_link": "https://mercadolivre.com.br/#ORIGIN=SEU_LINK_GERAL_ML_AQUI"
     },
     "commission_info": {
       "category": "geral",
       "expected_commission": "9%"
     }
+  },
+  "ab_testing": {
+    "enabled": true,
+    "tests": [
+      {
+        "test_id": "title_urgency_test",
+        "active": true,
+        "variants": [
+          {
+            "variant": "A",
+            "weight": 50,
+            "title_prefix": "🎁"
+          },
+          {
+            "variant": "B", 
+            "weight": 50,
+            "title_prefix": "⏰"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "track_clicks": true,
+    "track_conversions": false,
+    "send_to_webhook": false,
+    "webhook_url": "",
+    "custom_events": [
+      "banner_view",
+      "banner_click", 
+      "banner_close",
+      "affiliate_redirect"
+    ]
   }
 }
-
-
