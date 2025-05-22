@@ -138,7 +138,7 @@
       },
       "content": {
         "title": "🛒 Shopee Deals",
-       
+        "subtitle": "Best prices guaranteed",
         "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
         "background_color": "#32363B",
         "text_color": "#EEEEEE",
@@ -146,6 +146,21 @@
         "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode",
         "store": "shopee"
       },
+      "targeting": {
+        "upcoming_birthdays_days": 20,
+        "user_activity_level": "any",
+        "special_occasion": null
+      },
+      "commission_info": {
+        "category": "electronics",
+        "expected_commission": "6%",
+        "min_value": "S$20",
+        "avg_ticket": "S$80",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": true,
+        "high_conversion": true
+      }
     }
   ],
 
