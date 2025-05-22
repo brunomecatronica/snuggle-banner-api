@@ -157,8 +157,8 @@
         "avg_ticket": "S$80",
         "high_ticket": false,
         "seasonal_bonus": false,
-        "urgency_bonus": true,
-        "high_conversion": true
+        "urgency_bonus": false,
+        "high_conversion": false
       }
     }
   ],
