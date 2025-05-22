@@ -1,7 +1,3 @@
-### 2.2 Criar Arquivo de Configuração
-**Arquivo: `ml_affiliate_config.json`**
-
-```json
 {
   "version": "1.0.0",
   "last_updated": "2025-01-21T10:00:00Z",
@@ -77,5 +73,5 @@
     }
   }
 }
-```
+
 
