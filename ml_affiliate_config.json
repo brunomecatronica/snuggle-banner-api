@@ -1,22 +1,14 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-01-21T10:00:00Z",
-  "affiliate_config": {
-    "program": "mercado_livre_afiliados",
-    "affiliate_id": "SEU_ID_REAL_ML",
-    "base_tracking_params": {
-      "utm_source": "snuggle_app",
-      "utm_medium": "banner",
-      "affiliate_ref": "snuggle"
-    }
-  },
+  "last_updated": "2024-01-15T10:00:00Z",
+  
   "banners": [
     {
-      "id": "ml_presentes_aniversario",
+      "id": "amazon_br_electronics",
       "active": true,
       "priority": 10,
-      "start_date": "2025-01-01T00:00:00Z",
-      "end_date": "2025-12-31T23:59:59Z",
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2024-12-31T23:59:59Z",
       "conditions": {
         "app_version_min": "1.0.0",
         "user_segments": ["all"],
@@ -25,157 +17,170 @@
         "hours_of_day": [0, 23]
       },
       "content": {
-        "title": "🎁 Presente Perfeito Encontrado!",
-        "subtitle": "Milhares de opções + Cashback garantido",
-        "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
-        "background_color": "#FF5722",
+        "title": "🎁 Presentes na Amazon",
+        "subtitle": "Entrega rápida e segura",
+        "image_url": "https://exemplo.com/banner-amazon-br.png",
+        "background_color": "#FF9900",
         "text_color": "#FFFFFF",
-        "button_text": "Ver Presentes",
-        "affiliate_link": "https://mercadolivre.com/sec/1v2dCqC"
+        "button_text": "Ver na Amazon",
+        "affiliate_link": "https://amazon.com.br/dp/B08N5WRWNW?tag=seucodeigo",
+        "store": "amazon"
       },
       "targeting": {
         "upcoming_birthdays_days": 30,
-        "user_activity_level": "any"
+        "user_activity_level": "any",
+        "special_occasion": null
       },
       "commission_info": {
-        "category": "presentes",
-        "expected_commission": "9%",
-        "min_value": "R$ 25"
+        "category": "eletrônicos",
+        "expected_commission": "4%",
+        "min_value": "R$ 50",
+        "avg_ticket": "R$ 200",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": false,
+        "high_conversion": true
       }
     },
+    
     {
-      "id": "ml_urgente_3dias",
+      "id": "mercadolivre_br_presentes",
       "active": true,
-      "priority": 50,
-      "start_date": "2025-01-01T00:00:00Z",
-      "end_date": "2025-12-31T23:59:59Z",
+      "priority": 9,
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2024-12-31T23:59:59Z",
       "conditions": {
+        "app_version_min": "1.0.0",
         "user_segments": ["all"],
-        "countries": ["BR"]
+        "countries": ["BR"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
       },
       "content": {
-        "title": "⏰ Aniversário em 3 dias!",
-        "subtitle": "Entrega garantida se comprar hoje",
-        "image_url": "",
-        "background_color": "#E91E63",
-        "text_color": "#FFFFFF",
-        "button_text": "Comprar Agora",
-        "affiliate_link": "https://mercadolivre.com/sec/1v2dCqC"
-      },
-      "targeting": {
-        "upcoming_birthdays_days": 3,
-        "user_activity_level": "any"
-      },
-      "commission_info": {
-        "category": "presentes",
-        "expected_commission": "9%",
-        "urgency_bonus": true
-      }
-    },
-    {
-      "id": "ml_eletronicos_oferta",
-      "active": true,
-      "priority": 20,
-      "start_date": "2025-01-01T00:00:00Z",
-      "end_date": "2025-12-31T23:59:59Z",
-      "conditions": {
-        "user_segments": ["tech_lovers", "all"],
-        "countries": ["BR"]
-      },
-      "content": {
-        "title": "📱 Eletrônicos em Oferta",
-        "subtitle": "Celulares, fones e mais - Até 9,5% cashback",
-        "image_url": "",
-        "background_color": "#2196F3",
-        "text_color": "#FFFFFF",
+        "title": "🛍️ Ofertas no Mercado Livre",
+        "subtitle": "Milhões de produtos com desconto",
+        "image_url": "https://exemplo.com/banner-ml-br.png",
+        "background_color": "#FFE600",
+        "text_color": "#3483FA",
         "button_text": "Ver Ofertas",
-        "affiliate_link": "https://mercadolivre.com/sec/1UdHgLC"
+        "affiliate_link": "https://mercadolivre.com.br/presentes?DEAL_ID=seucodigo",
+        "store": "mercadolivre"
       },
       "targeting": {
         "upcoming_birthdays_days": 15,
-        "user_activity_level": "any"
+        "user_activity_level": "any",
+        "special_occasion": null
       },
       "commission_info": {
-        "category": "eletronicos",
-        "expected_commission": "9.5%",
-        "high_ticket": true
+        "category": "presentes",
+        "expected_commission": "8%",
+        "min_value": "R$ 30",
+        "avg_ticket": "R$ 150",
+        "high_ticket": false,
+        "seasonal_bonus": true,
+        "urgency_bonus": false,
+        "high_conversion": true
       }
     },
+
     {
-      "id": "ml_beleza_dia_maes",
-      "active": false,
-      "priority": 40,
-      "start_date": "2025-04-01T00:00:00Z",
-      "end_date": "2025-05-15T23:59:59Z",
+      "id": "amazon_us_gifts",
+      "active": true,
+      "priority": 10,
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2024-12-31T23:59:59Z",
       "conditions": {
-        "countries": ["BR"],
-        "days_of_week": [1, 2, 3, 4, 5, 6, 7]
-      },
-      "content": {
-        "title": "💄 Beleza para Mamãe",
-        "subtitle": "Até 16% de comissão em produtos de beleza",
-        "image_url": "",
-        "background_color": "#E91E63",
-        "text_color": "#FFFFFF",
-        "button_text": "Presentes Mamãe",
-        "affiliate_link": "https://mercadolivre.com/sec/2GAAJem"
-      },
-      "targeting": {
-        "upcoming_birthdays_days": 60,
-        "special_occasion": "mothers_day"
-      },
-      "commission_info": {
-        "category": "beleza",
-        "expected_commission": "16%",
-        "seasonal_bonus": true
-      }
-    },
-    {
-      "id": "ml_black_friday_2025",
-      "active": false,
-      "priority": 100,
-      "start_date": "2025-11-20T00:00:00Z",
-      "end_date": "2025-11-30T23:59:59Z",
-      "conditions": {
+        "app_version_min": "1.0.0",
         "user_segments": ["all"],
-        "countries": ["BR"]
+        "countries": ["US", "CA"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
       },
       "content": {
-        "title": "🔥 BLACK FRIDAY ML",
-        "subtitle": "Até 70% OFF + Máxima Comissão",
-        "image_url": "",
-        "background_color": "#000000",
-        "text_color": "#FFFF00",
-        "button_text": "Ver Ofertas BF",
-        "affiliate_link": "https://mercadolivre.com/sec/2J4ZsLc"
+        "title": "🎁 Amazon Gift Ideas",
+        "subtitle": "Fast & reliable delivery",
+        "image_url": "https://exemplo.com/banner-amazon-us.png",
+        "background_color": "#FF9900",
+        "text_color": "#FFFFFF",
+        "button_text": "Shop Now",
+        "affiliate_link": "https://amazon.com/dp/B08N5WRWNW?tag=yourcode",
+        "store": "amazon"
       },
       "targeting": {
-        "upcoming_birthdays_days": 0,
-        "special_occasion": "black_friday"
+        "upcoming_birthdays_days": 30,
+        "user_activity_level": "any",
+        "special_occasion": null
       },
       "commission_info": {
-        "category": "ofertas_especiais",
-        "expected_commission": "até 16%",
-        "high_conversion": true,
-        "event": "black_friday_2025"
+        "category": "gifts",
+        "expected_commission": "4%",
+        "min_value": "$25",
+        "avg_ticket": "$100",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": false,
+        "high_conversion": true
+      }
+    },
+
+    {
+      "id": "shopee_sg_electronics",
+      "active": true,
+      "priority": 8,
+      "start_date": "2024-01-01T00:00:00Z",
+      "end_date": "2024-12-31T23:59:59Z",
+      "conditions": {
+        "app_version_min": "1.0.0",
+        "user_segments": ["all"],
+        "countries": ["SG", "MY", "TH", "PH", "VN"],
+        "days_of_week": [1, 2, 3, 4, 5, 6, 7],
+        "hours_of_day": [0, 23]
+      },
+      "content": {
+        "title": "🛒 Shopee Deals",
+        "subtitle": "Best prices guaranteed",
+        "image_url": "https://exemplo.com/banner-shopee.png",
+        "background_color": "#EE4D2D",
+        "text_color": "#FFFFFF",
+        "button_text": "Shop Now",
+        "affiliate_link": "https://shopee.sg/product/123456789?af_sub1=yourcode",
+        "store": "shopee"
+      },
+      "targeting": {
+        "upcoming_birthdays_days": 20,
+        "user_activity_level": "any",
+        "special_occasion": null
+      },
+      "commission_info": {
+        "category": "electronics",
+        "expected_commission": "6%",
+        "min_value": "S$20",
+        "avg_ticket": "S$80",
+        "high_ticket": false,
+        "seasonal_bonus": false,
+        "urgency_bonus": true,
+        "high_conversion": true
       }
     }
   ],
+
   "fallback_banner": {
     "content": {
-      "title": "🛒 Mercado Livre",
-      "subtitle": "Milhões de produtos com cashback",
-      "image_url": "",
-      "background_color": "#FFE082",
-      "text_color": "#000000",
-      "button_text": "Explorar",
-      "affiliate_link": "https://mercadolivre.com/sec/1CiVYws"
+      "title": "🎁 Encontre o presente perfeito",
+      "subtitle": "Ofertas especiais para você",
+      "image_url": "https://exemplo.com/banner-fallback.png",
+      "background_color": "#6C63FF",
+      "text_color": "#FFFFFF",
+      "button_text": "Ver Ofertas",
+      "affiliate_link": "https://exemplo.com/ofertas",
+      "store": "generic"
     },
     "commission_info": {
       "category": "geral",
-      "expected_commission": "9%"
+      "expected_commission": "5%"
     }
   },
+
   "ab_testing": {
     "enabled": true,
     "tests": [
@@ -184,29 +189,19 @@
         "active": true,
         "variants": [
           {
-            "variant": "A",
-            "weight": 50,
-            "title_prefix": "🎁"
+            "title_prefix": "🔥",
+            "weight": 30
           },
           {
-            "variant": "B", 
-            "weight": 50,
-            "title_prefix": "⏰"
+            "title_prefix": "⏰",
+            "weight": 30
+          },
+          {
+            "title_prefix": "💰",
+            "weight": 40
           }
         ]
       }
-    ]
-  },
-  "analytics": {
-    "track_clicks": true,
-    "track_conversions": false,
-    "send_to_webhook": false,
-    "webhook_url": "",
-    "custom_events": [
-      "banner_view",
-      "banner_click", 
-      "banner_close",
-      "affiliate_redirect"
     ]
   }
 }
