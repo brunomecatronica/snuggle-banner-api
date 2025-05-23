@@ -32,7 +32,7 @@
       "active": true,
       "priority": 9,
       "countries": ["BR"],
-      "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/Amazon-smile-web-banner-300x88.jpg",
       "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo",
       "title": "🎁 Amazon Brasil",
       "subtitle": "Este subtítulo não aparecerá",
