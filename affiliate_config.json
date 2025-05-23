@@ -16,12 +16,12 @@
       "text_color": "#FFFFFF",
       "store": "shopee",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
       "title_font_size": 20,
       "subtitle_font_size": 15,
       "overlay_opacity": 0.8
