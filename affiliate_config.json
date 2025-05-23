@@ -40,12 +40,12 @@
       "text_color": "#FFFFFF",
       "store": "amazon",
       
-      "show_text": true,
-      "show_title": true,
+      "show_text": false,
+      "show_title": false,
       "show_subtitle": false,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
       "title_font_size": 22,
       "overlay_opacity": 0.6
     },
