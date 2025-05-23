@@ -8,7 +8,7 @@
       "active": true,
       "priority": 10,
       "countries": ["TH", "SG", "MY", "PH", "VN"],
-      "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
       "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode",
       "title": "🛍️ Shopee Mega Sale!",
       "subtitle": "ลดราคาสูงสุด 90% วันนี้เท่านั้น!",
