@@ -7,41 +7,82 @@
       "id": "amazon_br_electronics",
       "active": true,
       "priority": 10,
-      "countries": ["BR"],
-      "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
-      "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo"
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "countries": ["BR"]
+      },
+      "content": {
+        "title": "Amazon Brasil",
+        "subtitle": "Ofertas especiais",
+        "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
+        "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo",
+        "store": "amazon"
+      }
     },
     
     {
       "id": "mercadolivre_br_presentes",
       "active": true,
       "priority": 9,
-      "countries": ["BR"],
-      "image_url": "https://example.com/mercadolivre-banner.jpg",
-      "affiliate_link": "https://mercadolivre.com.br/presentes?DEAL_ID=seucodigo"
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "countries": ["BR"]
+      },
+      "content": {
+        "title": "MercadoLivre",
+        "subtitle": "Presentes incríveis",
+        "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/mercadolivre-banner.jpg",
+        "affiliate_link": "https://mercadolivre.com.br/presentes?DEAL_ID=seucodigo",
+        "store": "mercadolivre"
+      }
     },
 
     {
       "id": "amazon_us_gifts",
       "active": true,
       "priority": 10,
-      "countries": ["US", "CA"],
-      "image_url": "https://example.com/amazon-us-banner.jpg",
-      "affiliate_link": "https://amazon.com/presentes?tag=yourcode"
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "countries": ["US", "CA"]
+      },
+      "content": {
+        "title": "Amazon US",
+        "subtitle": "Amazing deals",
+        "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-us-banner.jpg",
+        "affiliate_link": "https://amazon.com/presentes?tag=yourcode",
+        "store": "amazon"
+      }
     },
 
     {
       "id": "shopee_sg_electronics",
       "active": true,
       "priority": 8,
-      "countries": ["SG", "MY", "TH", "PH", "VN"],
-      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
-      "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode"
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "conditions": {
+        "countries": ["SG", "MY", "TH", "PH", "VN"]
+      },
+      "content": {
+        "title": "Shopee Asia",
+        "subtitle": "ของขวัญพิเศษ",
+        "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
+        "affiliate_link": "https://shopee.sg/presentes?af_sub1=yourcode",
+        "store": "shopee"
+      }
     }
   ],
 
   "fallback_banner": {
-    "image_url": "https://example.com/default-banner.jpg",
-    "affiliate_link": "https://example.com/ofertas"
+    "conditions": {
+      "countries": ["ALL"]
+    },
+    "content": {
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/default-banner.jpg",
+      "affiliate_link": "https://example.com/ofertas"
+    }
   }
 }
